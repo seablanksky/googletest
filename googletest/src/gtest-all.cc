@@ -36,7 +36,7 @@
 // This line ensures that gtest.h can be compiled on its own, even
 // when it's fused.
 #include "gtest/gtest.h"
-
+#define TEST 2
 // The following lines pull in the real gtest *.cc files.
 #include "src/gtest.cc"
 #include "src/gtest-death-test.cc"
